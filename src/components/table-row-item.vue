@@ -75,6 +75,9 @@ export default {
   },
   mounted () {
     this.checkPrice()
+  },
+  updated () {
+    this.checkPrice()
   }
 }
 </script>
