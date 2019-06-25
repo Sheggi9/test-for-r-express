@@ -32,7 +32,7 @@ import {mapState} from 'vuex'
 import TableRowItem from '@/components/table-row-item'
 
 export default {
-  name: 'table',
+  name: 'tList',
   components: {TableRowItem},
   methods: {
     setTitle (e) {

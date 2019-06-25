@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Table/>
+    <t-list/>
   </div>
 </template>
 
 <script>
-import Table from './components/table'
+import tList from './components/t-list'
 
 export default {
   name: 'App',
   components: {
-    Table
+    tList
   }
 }
 </script>
